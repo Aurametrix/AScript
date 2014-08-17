@@ -53,12 +53,21 @@
           <label for="radio-origin-fr">French</label>
         </div>
         <div>
+          <input type="radio" name="origin" id="radio-origin-ka" value="ka">
+          <label for="radio-origin-de">Georgian</label>
+        </div>
+
+        <div>
           <input type="radio" name="origin" id="radio-origin-de" value="de">
           <label for="radio-origin-de">German</label>
         </div>
-        <div>
+               <div>
           <input type="radio" name="origin" id="radio-origin-ja" value="ja">
           <label for="radio-origin-ja">Japanese</label>
+        </div>
+        <div>
+          <input type="radio" name="origin" id="radio-origin-ru" value="ru">
+          <label for="radio-origin-de">Russian</label>
         </div>
         <div>
           <input type="radio" name="origin" id="radio-origin-es" value="es">
@@ -78,12 +87,21 @@
           <label for="radio-dest-fr">French</label>
         </div>
         <div>
+          <input type="radio" name="origin" id="radio-origin-ka" value="ka">
+          <label for="radio-origin-de">Georgian</label>
+        </div>
+
+        <div>
           <input type="radio" name="dest" id="radio-dest-de" value="de">
           <label for="radio-dest-de">German</label>
         </div>
         <div>
           <input type="radio" name="dest" id="radio-dest-ja" value="ja" checked="checked">
           <label for="radio-dest-ja">Japanese</label>
+        </div>
+        <div>
+          <input type="radio" name="origin" id="radio-origin-ru" value="ru">
+          <label for="radio-origin-de">Russian</label>
         </div>
         <div>
           <input type="radio" name="dest" id="radio-dest-es" value="es">

@@ -2,6 +2,7 @@ Google Apps Script
 =======
 
 Create a new Google Doc (AppsScript1)
+
 From within your new document, select the menu item Tools > Script editor. 
 If you are presented with a welcome screen, click Blank Project on the Left 
 (under Create script for)
@@ -16,9 +17,15 @@ paste docs.html.txt
 
 Name your new script "Translate Quickstart"
 (This name will appear in Add-ons menu, the authorization dialog and other places)
+
 Select the menu item File > Save all. 
 
 Reload
 
-Switch back to the original doc (AppsScript1)
+Switch back to the original doc (AppsScript1).
+
 Select "Translate Quickstart" sub-menu from the Add-ons menu. 
+
+REST for translate API:
+
+https://developers.google.com/translate/v2/using_rest#supported-query-params
