@@ -29,3 +29,36 @@ Select "Translate Quickstart" sub-menu from the Add-ons menu.
 REST for translate API:
 
 https://developers.google.com/translate/v2/using_rest#supported-query-params
+
+
+===
+
+Start "Translate Quickstart".
+
+A dialog box will appear and tell you that the script requires authorization. 
+Click Continue. A second dialog box will then request authorization for specific Google services. Read the notice carefully, then click Accept.
+A sidebar will appear. To test it, type some text into your document, 
+then select it and click the blue Translate button. To replace the text in the document, click Insert.
+
+
+https://developers.google.com/apps-script/quickstart/docs
+
+
+
+(Using the HtmlService class you can create the HTML page with the form_
+Connect Google Apps Script to Google Drive
+This will connect HTML service, for standard HTML, CSS, and client-side JavaScript.
+
+===========
+From within your new spreadsheet, select the menu item Tools > Script editor. If you are presented with a welcome screen, click Blank Project.
+Delete any code in the script editor and paste in the content of SPREADSHEETS/macros.js
+
+Switch back to your spreadsheet and reload the page.
+
+Type two addresses in cells A2 and B2
+Enter the formula =DRIVINGDISTANCE(A2,B2) into cell C2 and press enter. After a moment, the driving distance between the two addresses will be shown in the cell.
+Enter the formula =METERSTOMILES(C2) into cell D2 and press enter. After a moment, the equivalent distance in miles will be shown in the cell.
+Add additional rows of addresses and copy the formulas in columns C and D to compute the driving distances between various places.
+Select the menu item Directions > Generate step-by-step. (The Directions menu is a custom menu that the script added to the spreadsheet. It should have appeared a few seconds after you reloaded the spreadsheet.)
+A dialog box will appear and tell you that the script requires authorization. Click Continue. A second dialog box will then request authorization for specific Google services. Read the notice carefully, then click Accept.
+Now that the script is authorized, select Directions > Generate step-by-step again. In the dialog that appears, enter the row number of the addresses for which you want to generate directions, then click OK. After a moment, a new sheet will be created with nicely formatted directions.
