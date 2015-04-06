@@ -1,0 +1,13 @@
+var payload = 'XXXXX'; // Replace with raw video data.
+var headers = {
+    'GData-Version': '2',
+    'Slug': 'your-video.mpeg'
+    // Add any other required parameters for the YouTube API.
+};
+var url = 'https://uploads.gdata.youtube.com/feeds/api/users/default/uploads';
+var options = {
+    'method': 'post',
+    'headers': headers,
+    'payload': payload
+};
+var response = UrlFetchApp.fetch(url, options);
