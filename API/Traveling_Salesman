@@ -1,0 +1,50 @@
+{
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : -33.8347115,
+               "lng" : 140.8547058
+            },
+            "southwest" : {
+               "lat" : -37.3511758,
+               "lng" : 138.4951576
+            }
+         },
+         "copyrights" : "Map data ©2015 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "139 km",
+                  "value" : 139119
+               },
+               "duration" : {
+                  "text" : "1 hour 51 mins",
+                  "value" : 6648
+               },
+               "end_address" : "Clare SA 5453, Australia",
+               "end_location" : {
+                  "lat" : -33.8333395,
+                  "lng" : 138.6117283
+               },
+               "start_address" : "Adelaide SA, Australia",
+               "start_location" : {
+                  "lat" : -34.9285894,
+                  "lng" : 138.5999429
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "70 m",
+                        "value" : 70
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 6
+                     },
+                     "end_location" : {
+                        "lat" : -34.9285338,
+                        "lng" : 138.6007031
+                     },
+                     "html_instructions" : "Head \u003cb\u003eeast\u003c/b\u003e on \u003cb\u003eReconciliation Plaza\u003c/b\u003e toward \u003cb\u003eVictoria Square\u003c/b\u003e",
+...
