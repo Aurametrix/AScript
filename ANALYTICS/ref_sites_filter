@@ -1,0 +1,10 @@
+Filter Name: Full Referrer (or whatever you want to call it)
+Filter Type: Custom Filter
+Advanced
+Field A -> Extract A: Referral (.*)
+Field B -> Extract B: leave blank
+Output To -> Constructor: User Defined $A1
+Field A Required: Yes
+Field B Required: No
+Override Output Field: Yes
+Case Sensitive: No
