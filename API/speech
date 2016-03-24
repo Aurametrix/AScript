@@ -1,0 +1,22 @@
+# old, verson 2
+
+client=chromium
+lang=language (where language is en_US for American English, fr_FR for French, de_DE for German, es_ES for Spanish etc.).
+key=a_developer_key
+
+# HTTP header:
+Content-Type: audio/x-flac; rate=file_sampling_rate (where file_sampling_rate is the sampling rate of the file). 8000, 16000, 32000 and 44100 are all valid values but not the only possible ones).
+
+# URL
+https://www.google.com/speech-api/v2/recognize?client=chromium&lang=en_US&key=your_key
+
+# examples
+parecord record.flac --file-format=flac --rate=16000
+rec -r 16000 -c 1 record.flac
+wget -q --post-file record.flac --header="Content-Type: audio/x-flac
+
+#Send a flac audio file and get its transcription
+./speech-rec.sh -i record.flac --rate 16000
+
+# French
+./speech-rec.sh -i record.flac --rate 16000 --language fr_FR
