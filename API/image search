@@ -1,0 +1,26 @@
+Creating cx and modifying it to search for images
+
+Create custom search engine at https://cse.google.com/cse/create/new based on your search criteria.
+Choose sites to search (leave this blank if you want to search the entire web, otherwise you can enter a site to search in one particular site)
+Enter a name and a language for your search engine.
+Click "create." You can now find cx in your browser URL.
+Under "Modify your search engine," click the "Control Panel" button. In the "edit" section you will find an "Image Search" label with an ON/OFF button, change it to ON. Click "update" to save your changes.
+Conducting a search with the API
+
+The API endpoint url is https://www.googleapis.com/customsearch/v1
+
+The following JSON parameters are used for this API:
+
+q: specifies search text
+num: specifies number of results. Requires an integer value between 1 and 10 (inclusive)
+start: the "offset" for the results, which result the search should start at. Requires an integer value between 1 and 101.
+imgSize: the size of the image. I used "medium"
+searchType: must be set to "image"
+filetype: specifies the file type for the image. I used `"jpg", but you can leave this out if file extension doesn't matter to you.
+key: an API key, obtained from https://console.developers.google.com/
+cx: the custom search engine ID from the previous section
+Simply make a GET request by passing above parameters as JSON to the API endpoint (also listed above).
+
+Note: If you set a list of referrers in the search engine settings, visiting the URL via your browser will likely not work. You will need to make an AJAX call (or the equivalent from another language) from a server specified in this list. It will work for only the referrers which were specified in the configuration settings.
+
+Reference: https://developers.google.com/custom-search/json-api/v1/reference/cse/list
