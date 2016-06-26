@@ -24,3 +24,20 @@ Simply make a GET request by passing above parameters as JSON to the API endpoin
 Note: If you set a list of referrers in the search engine settings, visiting the URL via your browser will likely not work. You will need to make an AJAX call (or the equivalent from another language) from a server specified in this list. It will work for only the referrers which were specified in the configuration settings.
 
 Reference: https://developers.google.com/custom-search/json-api/v1/reference/cse/list
+
+
+{
+ "error": {
+  "errors": [
+   {
+    "domain": "global",
+    "reason": "required",
+    "message": "Required parameter: q",
+    "locationType": "parameter",
+    "location": "q"
+   }
+  ],
+  "code": 400,
+  "message": "Required parameter: q"
+ }
+}
