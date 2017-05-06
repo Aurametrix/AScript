@@ -62,3 +62,7 @@ Add additional rows of addresses and copy the formulas in columns C and D to com
 Select the menu item Directions > Generate step-by-step. (The Directions menu is a custom menu that the script added to the spreadsheet. It should have appeared a few seconds after you reloaded the spreadsheet.)
 A dialog box will appear and tell you that the script requires authorization. Click Continue. A second dialog box will then request authorization for specific Google services. Read the notice carefully, then click Accept.
 Now that the script is authorized, select Directions > Generate step-by-step again. In the dialog that appears, enter the row number of the addresses for which you want to generate directions, then click OK. After a moment, a new sheet will be created with nicely formatted directions.
+
+[expense manager](https://github.com/mitul45/expense-manager); see also [HN discussion](https://news.ycombinator.com/item?id=14279653)
+
+
