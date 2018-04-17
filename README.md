@@ -66,3 +66,9 @@ Now that the script is authorized, select Directions > Generate step-by-step aga
 [expense manager](https://github.com/mitul45/expense-manager); see also [HN discussion](https://news.ycombinator.com/item?id=14279653)
 
 
+### Google Experiments
+
+* [semantic experiences](https://research.google.com/semanticexperiences/)
+   * [talk to books](https://books.google.com/talktobooks/)
+   * [semantic world associations](https://research.google.com/semantris/)
+   * [develop apps understanding language](https://research.google.com/semanticexperiences/for-developers.html)
