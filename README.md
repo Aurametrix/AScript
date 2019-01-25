@@ -72,3 +72,19 @@ Now that the script is authorized, select Directions > Generate step-by-step aga
    * [talk to books](https://books.google.com/talktobooks/)
    * [semantic world associations](https://research.google.com/semantris/)
    * [develop apps understanding language](https://research.google.com/semanticexperiences/for-developers.html)
+   
+   
+ ### Search Operators
+ 
++ AND, OR, * wildcard; define; filtype; site; related
+
++ ( ) -  Group multiple terms or search operators to control how the search is executed.
+
++ $ - Search for prices. Also works for Euro (€), but not GBP (£) 
+
++ cache: - Returns the most recent cached version of a web page
+
++ intitle - Find pages with a certain word (or words) in the title (also inurl, intext, allintext
+
++ AROUND(X)
+
