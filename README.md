@@ -73,6 +73,7 @@ Now that the script is authorized, select Directions > Generate step-by-step aga
    * [semantic world associations](https://research.google.com/semantris/)
    * [develop apps understanding language](https://research.google.com/semanticexperiences/for-developers.html)
    
+* [	Xg2xg: Lookup table of similar tech and services for ex-Googlers](https://github.com/jhuangtw-dev/xg2xg)   
    
  ### Search Operators
  
@@ -88,3 +89,4 @@ Now that the script is authorized, select Directions > Generate step-by-step aga
 
 + AROUND(X)
 
+###
