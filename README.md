@@ -65,6 +65,7 @@ Now that the script is authorized, select Directions > Generate step-by-step aga
 
 [expense manager](https://github.com/mitul45/expense-manager); see also [HN discussion](https://news.ycombinator.com/item?id=14279653)
 
+[Tetris on google sheets](https://plumsempy.com/2018/09/17/tetris-on-google-sheets/)
 
 ### Google Experiments
 
