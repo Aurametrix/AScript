@@ -30,6 +30,8 @@ REST for translate API:
 
 https://developers.google.com/translate/v2/using_rest#supported-query-params
 
+Create videos from google spreadsheets:
+http://www.moovly.com/products/video-automator
 
 ===
 
