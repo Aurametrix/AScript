@@ -97,3 +97,6 @@ Now that the script is authorized, select Directions > Generate step-by-step aga
 
 Comparing OCR: Google, Amazon, Microsoft
 (https://www.amplenote.com/blog/2019_examples_amazon_textract_rekognition_microsoft_cognitive_services_google_vision)
+
+###
+[Degoogle](https://github.com/tycrek/degoogle)
