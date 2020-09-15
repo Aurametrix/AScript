@@ -100,3 +100,5 @@ Comparing OCR: Google, Amazon, Microsoft
 
 ###
 [Degoogle](https://github.com/tycrek/degoogle)
+
+[Twitter bot with google shetes](https://medium.com/javascript-in-plain-english/build-your-own-twitter-bot-with-google-sheets-d9a8ef955fa1)
