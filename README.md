@@ -102,3 +102,7 @@ Comparing OCR: Google, Amazon, Microsoft
 [Degoogle](https://github.com/tycrek/degoogle)
 
 [Twitter bot with google shetes](https://medium.com/javascript-in-plain-english/build-your-own-twitter-bot-with-google-sheets-d9a8ef955fa1)
+
+[Atscript](https://docs.google.com/document/d/11YUzC-1d0V1-Q3V0fQ7KSit97HnZoKVygDxpWzEYW0U/edit)
+
+[Ballerina](https://ballerina.io/) - API-first programming language for the cloud
