@@ -1,4 +1,4 @@
-Google Apps Script
+Google Apps Script; Apple script
 =======
 
 Create a new Google Doc (AppsScript1)
@@ -106,3 +106,6 @@ Comparing OCR: Google, Amazon, Microsoft
 [Atscript](https://docs.google.com/document/d/11YUzC-1d0V1-Q3V0fQ7KSit97HnZoKVygDxpWzEYW0U/edit)
 
 [Ballerina](https://ballerina.io/) - API-first programming language for the cloud
+
+### Apple Web Script
+https://developer.apple.com/library/archive/documentation/LegacyTechnologies/WebObjects/WebObjects_3.1/DevGuide/WebScript/WebScript.mif.book.html
